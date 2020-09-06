@@ -1,6 +1,6 @@
 package oop;
 
-public class Motherboard extends ComputerPart {
+public class Motherboard<T> extends ComputerPart {
     private String socket;
 
     public Motherboard(String manufacturer, Enum e, double price, String socket) {
